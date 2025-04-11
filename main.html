@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soundbar</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Soundbar</title>
 </head>
+
 <body>
+    <h1>Soundbar</h1>
+    <section id="buttons">
+        <button class="btn" data-sound="sounds/sound1.mp3">Sound 1</button>
+        <button class="btn" data-sound="sounds/sound2.mp3">Sound 2</button>
+        <button class="btn" data-sound="sounds/sound3.mp3">Sound 3</button>
+        <button class="btn" data-sound="sounds/sound4.mp3">Sound 4</button>
+        <button class="btn" data-sound="sounds/sound5.mp3">Sound 5</button>
+        <button class="stop">Stop</button>
+    </section>
 
-    <div id="buttons"></div>
-    <button class="stop">Stop</button>
-
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
 </body>
+
 </html>
